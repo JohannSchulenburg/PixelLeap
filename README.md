@@ -2,7 +2,7 @@
   
 [Pages-Version](https://johannschulenburg.github.io/PixelLeap/) (doesnt work)  
 [Repository](https://github.com/JohannSchulenburg/PixelLeap)
-[Designdokument](https://github.com/JohannSchulenburg/PixelLeap/tree/main/documents/Designdokument.pdf)  
+[Designdokument](https://github.com/JohannSchulenburg/PixelLeap/blob/main/documents/Designdokument.pdf)  
 [Code](https://github.com/johannschulenburg/PixelLeap/tree/main/typescript)  
 [Download as zip](https://github.com/JohannSchulenburg/PixelLeap/archive/main.zip)  
   
@@ -13,8 +13,8 @@ the game is a heavily [DoodleJump](https://play.google.com/store/apps/details?id
   
 ## Controls
   
-Left:   <kbd>A or Left Arrow</kbd>  
-Right:  <kbd>D or Right Arrow</kbd>  
+Left:   <kbd>A</kbd> or <kbd>Left Arrow</kbd>
+Right:  <kbd>D</kbd> or <kbd>Right Arrow</kbd>  
 
   
 ## Installation
