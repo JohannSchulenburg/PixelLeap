@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scribbleleap</title>
+    <script src="../FudgeCore/FudgeCore.js"></script>
+    <script src="GameObject.js"></script>
+    <script src="Player.js"></script>
+    <script src="../Game/Platforms/Platform.js"></script>
+    <script src="../Game/Platforms/PlatformCloud.js"></script>
+    <script src="../Game/Platforms/PlatformMoving.js"></script>
+    <script src="Main.js"></script>
+</head>
+<style>
+/*   input[key="score"] {
+  position: absolute;
+  top: calc(var(--height) - 300px );
+  left: 100px;
+}
+#score{
+  left: 10px;
+  top: calc(var(--height) - 320px );
+}
+input[type="number"] {
+  appearance: textfield;
+  font-family:  "Lucida Sans Unicode";
+  font-size: 2em;
+  border: none;
+  background-color: rgba(0, 255, 255, 0);
+  color: cyan;
+  text-shadow: black 5px 5px;d
+  width:4em;
+}
+div#hud {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  font-size: large;
+} */
+  html,
+  body {
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+  }
+  /* #highscore {
+   width: 100%;
+   text-align:center;
+} */
+  #canvas-container {
+   text-align:center;
+}
+  #highscore {
+    text-align: center;
+  }
+  canvas {
+      text-align:center;
+      display: inline;
+      width: 20vw;
+      height: 80vh;
+  }
+</style>
+<body>
+  <h2 id="highscore"></h2>
+  <div id="canvas-container">
+    
+      <canvas>Your browser doesn't support canvas</canvas>
+  </div>    
+</body>
+</html>
