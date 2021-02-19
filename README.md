@@ -1,14 +1,27 @@
-# Prima
-Repository for the module "Prototyping interactive media-applications and games" at Furtwangen University
+# Pixelleap
+  
+[Pages-Version](https://johannschulenburg.github.io/PixelLeap/) (doesnt work)  
+[Repository](https://github.com/JohannSchulenburg/PixelLeap)
+[Designdokument](https://github.com/koegelma/Post-Human-Evolution/blob/main/Designdokument.pdf)  
+[Code](https://github.com/johannschulenburg/PixelLeap/tree/main/typescript)  
+[Download as zip](https://github.com/koegelma/Post-Human-Evolution/archive/main.zip)  
+  
+## About the game
+  
+the game is a heavily [DoodleJump](https://play.google.com/store/apps/details?id=com.lima.doodlejump&hl=en&gl=us) inspired game built with the learning 3D-Engine [Fudge](https://github.com/JirkaDellOro/FUDGE) within the class "Prototyping of interactive Media-Applications and Games". Try to reach the highest possible score; but dont fall, because there will be less and less platforms to depend on!
 
-[Pages-Version](https://jirkadelloro.github.io/Prima/)
+  
+## Controls
+  
+Left:   <kbd>A or Left Arrow</kbd>  
+Right:  <kbd>D or Right Arrow</kbd>  
 
-- [PONG](https://jirkadelloro.github.io/Prima/W19/L06_PongFinal/Main.html)
-- [CRAFTRIS](https://jirkadelloro.github.io/Prima/W19/L13_Craftris)
+  
+## Installation
 
-
-## Checkliste für Leistungsnachweis
-© Prof. Dipl.-Ing. Jirka R. Dell'Oro-Friedl, HFU
+Clone the repo and start the index.html in a Live-Server.
+  
+## Anforderungstabelle
 
 | Nr | Bezeichnung           | Inhalt                                                                                                                                                                                                                                                                         |
 |---:|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
