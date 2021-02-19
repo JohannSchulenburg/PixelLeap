@@ -2,9 +2,9 @@
   
 [Pages-Version](https://johannschulenburg.github.io/PixelLeap/) (doesnt work)  
 [Repository](https://github.com/JohannSchulenburg/PixelLeap)
-[Designdokument](https://github.com/koegelma/Post-Human-Evolution/blob/main/Designdokument.pdf)  
+[Designdokument](https://github.com/JohannSchulenburg/PixelLeap/blob/main/Designdokument.pdf)  
 [Code](https://github.com/johannschulenburg/PixelLeap/tree/main/typescript)  
-[Download as zip](https://github.com/koegelma/Post-Human-Evolution/archive/main.zip)  
+[Download as zip](https://github.com/JohannSchulenburg/PixelLeap/archive/main.zip)  
   
 ## About the game
   
@@ -28,17 +28,17 @@ Clone the repo and start the index.html in a Live-Server.
 |    | Titel                 |
 |    | Name                  |
 |    | Matrikelnummer        |
-|  1 | Nutzerinteraktion     | Der Nutzer kann mit der Applikation interagieren. Mit welchen Mitteln und welchen Aktionen werden welche Reaktionen ausgelöst?                                                                                                                                                 |
-|  2 | Objektinteraktion     | Mit Hilfe von Kollisionsprüfung interagieren Objekte miteinander. Wann passiert dabei wie was?                                                                                                                                                                                 |
-|  3 | Objektanzahl variabel | Eine variable Anzahl von Objekten wird zur Laufzeit generiert. Welche sind dies und wann und wie geschieht die Erzeugung?                                                                                                                                                      |
-|  4 | Szenenhierarchie      | Die Szenenhierarchie ist sinnvoll aufgebaut. Wer ist wessen Parent, wie sind Elemente in anderen gruppiert und warum?                                                                                                                                                          |
-|  5 | Sound                 | Sounds sind eingebunden und unterstützen oder ermöglichen die Wahrnehmung der Aktionen. Welche Ereignisse werden durch Geräusche akustisch unterstützt, und durch welche Geräuschkulisse oder Musik die Atmosphäre?                                                            |
-|  6 | GUI                   | Ein grafisches Interface gibt dem Nutzer die Möglichkeit, Einstellungen beim Programmstart oder während des Programmlaufs vorzunehmen. Was kann er dort tun?                                                                                   |
-|  7 | Externe Daten         | Spielparameter sind extern in einer Datei veränderbar, so dass das Spiel nur neu gestartet, aber nicht neu kompiliert werden muss. Welche Parameter sind dies und was sind die Auswirkungen?                                                                                   |
-|  8 | Verhaltensklassen     | Das Verhalten von Objekten ist in den Methoden von Klassen definiert, die in externen Dateien abgelegt sind. Welche Klassen sind dies und welches Verhalten wird dort beschrieben?                                                                                             |
-|  9 | Subklassen            | Es existiert eine Klassenhierarchie, einige Objekte sind Instanzen von einer oder mehreren abgeleiteten Subklassen mit gegenüber den anderen Objekten speziellem Verhalten und besonderen Eigenschaften. Welche Klassen sind dies und welches Verhalten wird dort beschrieben? |
-| 10 | Maße & Positionen     | Maße, Skala und Positionen sind gut durchdacht. Wie groß sind Spielfiguren, wie ist die Welt angeordnet bezogen auf den Ursprung, wie sind Spielelemente bezogen auf ihre lokalen Koordinatensysteme definiert?                                                                |
-| 11 | Event-System          | Das Event-System wird verwendet. Wer sendet wem Informationen oder Methodenaufrufe und wofür?                                                                                                                                                                                  |
+|  1 | Nutzerinteraktion     | Der Spieler kann den Würfel auf der horizontalen Achse nach links und rechts bewegen. Auf den Seiten rechts und links kann er sich auf die jeweils andere Seite teleportieren.                                                                                                                                                 |
+|  2 | Objektinteraktion     | Die Plattformen werden in jedem Frame abgefragt, ob sie mit dem Spieler colliden. Wenn dies passiert, setzen sie die "Fallgeschwindigkeit" des spielers ins positive, was dem Spieler wiederum einen Schub nach oben verpasst. Bei manchen Plattformen ist dieser größer als bei anderen.                                                                                                                                                                                  |
+|  3 | Objektanzahl variabel | Immer wenn der Spieler einen neuen highscore erreicht werden neue Plattformen kreiert. Die Erzeugung findet statt, indem eine zufällige neue Plattformen-Klasse erstellt wird, diese in dem Array der Plattformen hinzugefügt wird und an die root angeschlossen wird. Erzeugung?                                                                                                                                                      |
+|  4 | Szenenhierarchie      | Der Player und die Plattformen sind einzeln and die root angehangen, da diese nicht voneinander abhängig sind. Die Plattformen werden als child der root entfernt, wenn diese den unteren Rand unterschreiten.                                                                                                                                                          |
+|  5 | Sound                 | Es wird ein Soundeffekt abgespielt immer, wenn der Spieler mit Plattformen kollidiert. Die Hintergrundmusik läuft in einer Schleife und sorgt für Spannung und ein Gefühl von Zeitdruck. Die Musik wirkt retro und passt zu einem Arcade Game .                                                            |
+|  6 | GUI                   |                                                                                    |
+|  7 | Externe Daten         |                                                                                  |
+|  8 | Verhaltensklassen     | Die verschiedenen Klassen haben eigene Methoden, wie z.B. move, update und checkCollision. Einige Klassen mit individuellen Methoden sind z.B. PlatformCloud, PlatformMoving, GameObject.                                                                                          |
+|  9 | Subklassen            | PlatformMoving und PlatformCloud erben von Platform, welche vom GameObject erbt. Der Player erbt von GameObject |
+| 10 | Maße & Positionen     | Die Plattformen haben übliche Maße wie 4,1 und die Größen wirken angemessen.                                                               |
+| 11 | Event-System          | Timer, Load und Loop werden mit dem Event-System geregelt.                                                                                                                                                                                |
 
 ## Abgabeformat
 * Fasse die Konzeption als ein wohlformatiertes Designdokument in PDF zusammen!
