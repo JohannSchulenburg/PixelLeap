@@ -33,11 +33,11 @@ Clone the repo and start the index.html in a Live-Server.
 |  3 | Objektanzahl variabel | Immer wenn der Spieler einen neuen highscore erreicht werden neue Plattformen kreiert. Die Erzeugung findet statt, indem eine zufällige neue Plattformen-Klasse erstellt wird, diese in dem Array der Plattformen hinzugefügt wird und an die root angeschlossen wird. Erzeugung?                                                                                                                                                      |
 |  4 | Szenenhierarchie      | Der Player und die Plattformen sind einzeln and die root angehangen, da diese nicht voneinander abhängig sind. Die Plattformen werden als child der root entfernt, wenn diese den unteren Rand unterschreiten.                                                                                                                                                          |
 |  5 | Sound                 | Es wird ein Soundeffekt abgespielt immer, wenn der Spieler mit Plattformen kollidiert. Die Hintergrundmusik läuft in einer Schleife und sorgt für Spannung und ein Gefühl von Zeitdruck. Die Musik wirkt retro und passt zu einem Arcade Game .                                                            |
-|  6 | GUI                   |                                                                                    |
+|  6 | GUI                   | Dem Spieler wird unter dem Canvas sein highscore angezeigt.                                                                                   |
 |  7 | Externe Daten         |                                                                                  |
 |  8 | Verhaltensklassen     | Die verschiedenen Klassen haben eigene Methoden, wie z.B. move, update und checkCollision. Einige Klassen mit individuellen Methoden sind z.B. PlatformCloud, PlatformMoving, GameObject.                                                                                          |
 |  9 | Subklassen            | PlatformMoving und PlatformCloud erben von Platform, welche vom GameObject erbt. Der Player erbt von GameObject |
-| 10 | Maße & Positionen     | Die Plattformen haben übliche Maße wie 4,1 und die Größen wirken angemessen.                                                               |
+| 10 | Maße & Positionen     | Die Plattformen haben übliche Maße wie 5,1 und die Größen wirken angemessen.                                                               |
 | 11 | Event-System          | Timer, Load und Loop werden mit dem Event-System geregelt.                                                                                                                                                                                |
 
 ## Abgabeformat

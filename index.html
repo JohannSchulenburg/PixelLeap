@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Scribbleleap</title>
     <script src="../FudgeCore/FudgeCore.js"></script>
+    <script src="../FudgeUserInterface/FudgeUserInterface.js"></script>
     <script src="/build/Main.js"></script>
     <!-- <script src="../Game/Player.js"></script>
     <script src="../Game/Platforms/Platform.js"></script>
@@ -52,21 +53,36 @@ div#hud {
   #canvas-container {
    text-align:center;
 }
-  #highscore {
-    text-align: center;
-  }
   canvas {
       text-align:center;
       display: inline;
-      width: 20vw;
+      width: 25vw;
       height: 80vh;
   }
+  h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+  }
+  div#hud {
+            position: absolute;
+            bottom: 10%;
+            left: 40%;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+        }
 </style>
 <body>
-  <h2 id="highscore"></h2>
+  <h2>PixelLeap</h2>
+
   <div id="canvas-container">
     
       <canvas>Your browser doesn't support canvas</canvas>
+        <div id="hud">
+          Highscore: <input type="number" key="highscore" disabled />
+        </div>
+      </canvas>
   </div>    
 </body>
 </html>

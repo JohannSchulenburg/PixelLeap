@@ -4,14 +4,16 @@ namespace Game {
   export class Player extends GameObject {
     //private static readonly REFLECT_VECTOR_X: fc.Vector3 = fc.Vector3.X();
     //private static readonly REFLECT_VECTOR_Y: fc.Vector3 = fc.Vector3.Y();
-
+    private static readonly mtrSolidRed: fc.Material = new fc.Material("SolidRed", fc.ShaderUniColor, new fc.CoatColored(fc.Color.CSS("RED")));
     public fallSpeed: number;
     public velocity: fc.Vector3 = fc.Vector3.ZERO();
+    
 
     public constructor(_name: string, _position: fc.Vector2, _size: fc.Vector2) {
       super(_name, _position, _size);
       this.fallSpeed = 0;
       this.velocity = new fc.Vector3(0 , this.fallSpeed , 0);
+      this.getComponent(fc.ComponentMaterial).material = Player.mtrSolidRed;
     }
 
     /**
