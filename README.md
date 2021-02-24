@@ -1,6 +1,6 @@
 # Pixelleap
   
-[Pages-Version](https://johannschulenburg.github.io/PixelLeap/) (doesnt work)  
+[Pages-Version](https://johannschulenburg.github.io/PixelLeap/)
 [Repository](https://github.com/JohannSchulenburg/PixelLeap)  
 [Designdokument](https://github.com/JohannSchulenburg/PixelLeap/blob/main/documents/Designdokument.pdf)  
 [Code](https://github.com/johannschulenburg/PixelLeap/tree/main/typescript)  
