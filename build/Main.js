@@ -58,9 +58,9 @@ var Game;
     let platformCount = 1;
     let end;
     //Audio
-    let audioJump = new fc.Audio("/assets/audio/Jump.mp3");
-    let audioMusic = new fc.Audio("/assets/audio/Music.mp3");
-    let audioLost = new fc.Audio("/assets/audio/Lost.mp3");
+    let audioJump = new fc.Audio("../assets/audio/Jump.mp3");
+    let audioMusic = new fc.Audio("../assets/audio/Music.mp3");
+    let audioLost = new fc.Audio("../assets/audio/Lost.mp3");
     let cmpAudioJump = new fc.ComponentAudio(audioJump, false);
     let cmpAudioMusic = new fc.ComponentAudio(audioMusic, true);
     let cmpAudioLost = new fc.ComponentAudio(audioLost, false);
