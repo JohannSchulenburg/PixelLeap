@@ -2,7 +2,7 @@
   
 [Pages-Version](https://johannschulenburg.github.io/PixelLeap/) (doesnt work)  
 [Repository](https://github.com/JohannSchulenburg/PixelLeap)  
-[Designdokument](https://github.com/JohannSchulenburg/PixelLeap/blob/main/ducuments/Designdokument.pdf)  
+[Designdokument](https://github.com/JohannSchulenburg/PixelLeap/blob/main/documents/Designdokument.pdf)  
 [Code](https://github.com/johannschulenburg/PixelLeap/tree/main/typescript)  
 [Download as zip](https://github.com/JohannSchulenburg/PixelLeap/archive/main.zip)  
   
