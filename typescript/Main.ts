@@ -16,9 +16,9 @@ namespace Game {
   let platformCount: number = 1;
   let end: fc.Vector3;
   //Audio
-  let audioJump: fc.Audio = new fc.Audio("/assets/audio/Jump.mp3");
-  let audioMusic: fc.Audio = new fc.Audio("/assets/audio/Music.mp3");
-  let audioLost: fc.Audio = new fc.Audio("/assets/audio/Lost.mp3");
+  let audioJump: fc.Audio = new fc.Audio("../assets/audio/Jump.mp3");
+  let audioMusic: fc.Audio = new fc.Audio("../assets/audio/Music.mp3");
+  let audioLost: fc.Audio = new fc.Audio("../assets/audio/Lost.mp3");
   let cmpAudioJump: fc.ComponentAudio = new fc.ComponentAudio(audioJump, false);
   let cmpAudioMusic: fc.ComponentAudio = new fc.ComponentAudio(audioMusic, true);
   let cmpAudioLost: fc.ComponentAudio = new fc.ComponentAudio(audioLost, false);
